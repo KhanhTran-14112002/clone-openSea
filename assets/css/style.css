@@ -1,4 +1,5 @@
 #header{
+    max-width: 2030px;
     height: 70px;
     background-color: white ;
     top:0;
@@ -226,7 +227,7 @@ font-weight: 600;
                             /* body */
 #body{
     margin-top: 70px;
-    
+    max-width: 2030px;
     padding: 2rem 3.2rem 5rem;
     width: 100%;
     min-height: 100px;
@@ -267,10 +268,10 @@ font-weight: 600;
 
 .body--slyder{
     background-image: url(../img/background.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     height: 58.5rem;
     border-radius: 20px;
-    object-fit:contain;
+    object-fit:cover;
     margin-bottom: 30px;
 }
 
@@ -301,6 +302,7 @@ font-weight: 600;
 
 /* footer */
 #footer{
+    max-width: 2030px;
     background-color: #007aff;
     padding: 2rem 3.2rem 5rem;
     width: 100%;

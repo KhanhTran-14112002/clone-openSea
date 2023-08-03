@@ -1,0 +1,42 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 67.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+@keyframes move-x{
+    from{
+       
+        transform: translatex(-20rem);
+        opacity: 0;
+    }
+    to{
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
+@keyframes move-down{
+    from{
+       
+        transform: translatey(-1rem);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+@keyframes show{
+    from{
+       
+        
+        opacity: 0;
+    }
+    to{
+        
+        opacity: 1;
+    }
+}

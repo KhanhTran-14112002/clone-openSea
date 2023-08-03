@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/logo.png" 
+    type="image/x-icon">
+    <title>OpenSea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/bd47c4dd95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+    </style>
+</head>
+<body>
+<div class="main" style="width: 100%;">
+    <div id="header" class=" position-fixed d-flex px-lg-5 border-bottom">
+        
+        <ul class="header--icon-menu d-inline-block d-lg-none position-relative"><i class="fa-solid fa-grip-lines"></i>
+            <!-- showmenuheader -->
+        <li>
+            <div class="container--menu position-absolute">
+                <div class="container--menu-list col-12 col-md-5 bg-warning position-absolute" >
+                    <div class="container--menu-list__item px-3">
+                        <span class=""><i class="fa-regular fa-calendar"></i> Drops</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="container--menu-list__item px-3">
+                        <span class=""><i class="fa-solid fa-chart-simple"></i> Stats</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="container--menu-list__item px-3">
+                        <span class=""><i class="fa-regular fa-file"></i> Resource</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="container--menu-list__item px-3">
+                        <span class=""><i class="fa-solid fa-pen"></i> Created</span>
+                    </div>
+                    <div class="container--menu-list__item px-3">
+                        <span class=""><i class="fa-brands fa-openid"></i> Opensea Pro</span>
+                    </div>
+                    <div class="container--menu-list__item px-3">
+                        <span class=""><i class="fa-solid fa-globe"></i> Language</span>
+                    </div>
+                </div>
+        
+            </div>
+        </li>
+        </ul>
+            <!-- logo ande text -->
+        <div class="header--item-left col-3" >
+            <div class="header--logo d-inline-block">
+                <img class="d-inline-block" src="./assets/img/logo.png" alt="" width="40px">
+                <a class="text-decoration-none d-inline-block" href="#">OpenSea</a>
+            </div>
+
+        </div>
+
+        <!-- two tag can hove -->
+        <div style="padding: 0 32px; justify-content: space-between;height: 70px;min-width: 175px;" class="d-inline-block d-none d-lg-inline-flex ">
+            <ul style="line-height: 70px;font-size: 1.6rem;font-weight: 600;cursor: pointer;" class="header--nav d-inline-block position-relative">Drops
+                <li class=" header--subnav position-absolute bg-danger d-none" style="width: 216px; min-height: 100px;border-radius: 10px;top:60px">
+                    <div style="height: 50px;">
+                        <a class="d-block" href="" style="line-height: 50px;text-decoration: none;cursor: pointer;color: black;padding-left: 2rem;">Feature</a>
+                    </div>
+                    <div style="height: 50px;">
+                        <a class="d-block" href="" style="line-height: 50px;text-decoration: none;cursor: pointer;color: black;padding-left: 2rem;">Learn more</a>
+                    </div>
+
+                </li>
+            
+            </ul>
+            <ul style="line-height: 70px;font-size: 1.6rem;font-weight: 600;cursor: pointer;" class=" header--nav d-inline-block position-relative">Stats
+                <li class="header--subnav position-absolute bg-danger d-none" style="width: 216px; min-height: 100px;border-radius: 10px;top:60px">
+                    <div style="height: 50px;">
+                        <a class="d-block" href="" style="line-height: 50px;text-decoration: none;cursor: pointer;color: black;padding-left: 2rem;">Rankings</a>
+                    </div>
+                    <div style="height: 50px;">
+                        <a class="d-block" href="" style="line-height: 50px;text-decoration: none;cursor: pointer;color: black;padding-left: 2rem;">Activity</a>
+                    </div>
+    
+                </li>
+            </ul>
+        </div>
+        
+        <!-- tag input -->
+        <div class="header--search d-inline-block col-6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="col-10 border-0" type="text" placeholder="Search items, collections, and accounts">
+        </div>
+
+        <!-- tag connect -->
+        <div class="header--connect-profile d-none d-md-inline-block col-2 ">
+            <div class="header--connect d-inline-block">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Conlect wallet</span>
+            </div>
+            <div class="header--profile d-inline-block">
+                <ul class="position-relative">
+                    <i class="fa-regular fa-user"></i>
+                    <li class="header--profile-list position-absolute">
+                        <div class="header--profile-list__item"></div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- tag my shop-->
+        <div class="header--mycarts d-inline-block col-2">
+            <i class="fa-solid fa-cart-shopping"></i>
+
+        </div>
+
+    </div>
+<!-- start bođy -->
+    <div id="body">
+    <div class="body--nav flex-nowrap d-flex">
+        <span class="body--subnav active"><a href="">All</a></span>
+        <span class="body--subnav"><a href="">Art</a></span>
+        <span class="body--subnav"><a href="">Gamming</a></span>
+        <span class="body--subnav"><a href="">Memberships</a></span>
+        <span class="body--subnav"><a href="">PFPs</a></span>
+        <span class="body--subnav"><a href="">Photigapgy</a></span>
+        <span class="body--subnav"><a href="">Music</a></span>
+
+    </div>
+
+    <div class="body--slyder">
+    </div>
+    <div class="body--content">
+        <h2>Trending in Abstract Art</h2>
+        <div class="body--content-list d-flex flex-nowrap">
+            <!-- <div class="body--content-item">
+                <img class="d-block" src="./assets/img/anh1.avif" alt="">
+                <div class="bg-body">
+                    <h4 class="px-4 py-4">Sthpyora</h4>
+                <div class="body--content-item-content d-flex px-4">
+                    <div class="flex-grow-1">
+                        <p>floor</p>
+                        <h4>0.15 ETH</h4>
+                    </div>
+                    <div class="flex-grow-1">
+                        <p>7 day volume</p>
+                        <h4>5 ETH</h4>
+                    </div>
+                </div>
+                </div>
+                
+            </div> -->
+        </div>
+    </div>
+
+    </div>
+
+   <footer id="footer">
+    <div class="d-md-flex border-3">
+        <div class="footer--stay text-center text-md-start flex-md-grow-1">
+            <h2>Stay in the loop</h2>
+            <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips 
+            and tricks for navigating OpenSea.</p>
+            <form action="" class="text-start">
+                <input type="email" placeholder="Your email add" class="col-7 col-md-8 in">
+                <button class="btn-info btn">sign up</button>
+
+            </form>
+        </div>
+        <div class="footer--join text-center text-md-start flex-md-grow-1">
+            <h2>Join the community
+            </h2>
+            <!-- <div class="d-flex flex-nowrap "> -->
+
+            <button class="btn btn-primary"  style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-brands fa-twitter"></i></button>
+            <button class="btn btn-primary" style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-brands fa-instagram"></i></button>
+            <button class="btn btn-primary" style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-brands fa-discord"></i></button>
+            <button class="btn btn-primary" style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-solid fa-gamepad"></i></button>
+            <button class="btn btn-primary" style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-brands fa-youtube"></i></button>
+            <button class="btn btn-primary" style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-brands fa-tiktok"></i></button>
+            <button class="btn btn-primary" style="--bs-btn-padding-y: 0.3rem; --bs-btn-padding-x: 1.2rem; --bs-btn-font-size: 3rem;border-radius: 10px; margin-right: .3rem;    background-color: #2081E2;"><i class="fa-regular fa-envelope"></i></button>
+            
+            <!-- </div> -->
+
+        </div>
+    </div>
+    <div>
+        <div class="col-md-12 text-center text-md-start     ">
+            <h2><a class="text-black text-decoration-none" href="">OpenSea</a></h2>
+        </div>
+        <div class="d-flex flex-wrap">
+            <div>
+                <h3>Marketplace</h3>
+                <ul>
+                    <li><a href="">All NFTs</a></li>
+                    <li><a href="">Art</a></li>
+                    <li><a href="">Gaming</a></li>
+                    <li><a href="">Memberships</a></li>
+                    <li><a href="">PFPs</a></li>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Music</a></li>
+                </ul>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div></div>
+   </footer> 
+    
+    
+
+</div>
+
+<script src="./assets/js/main.js"></script>    
+</body>
+</html>
